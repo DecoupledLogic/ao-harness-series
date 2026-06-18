@@ -1,0 +1,15 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+
+# IDE
+.vs/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Harness runtime artifacts
+workspace/
