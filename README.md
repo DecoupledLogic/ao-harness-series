@@ -1,4 +1,4 @@
-# AgenticOps Harness — Series
+# AgenticOps Harness Series
 
 The public, build-in-public companion to the **AgenticOps Harness** blog series. The series builds an AI Engineering kernel one vertical slice at a time and publishes the build log next to the code. This repository is that code.
 
@@ -13,6 +13,9 @@ Harness.slnx              solution: src/ Console, Core, Tests
 src/Harness.Core          the library the slices grow into
 src/Harness.Console       CLI entry point
 src/Harness.Tests         xUnit tests
+spikes/maf-spike          Slice 0: disposable Microsoft Agent Framework spike
+specs/                    per-slice specs and acceptance criteria
+docs/releases/            per-tag release notes (evidence)
 .github/workflows/ci.yml  build + test on every push and PR
 ```
 
@@ -38,7 +41,8 @@ The series climbs a ladder of control instincts for stochastic systems, rung by 
 | Stage | State |
 |-------|-------|
 | Bootstrap (clean build + test) | done |
-| Slice 0 | next |
+| Slice 0: disposable MAF spike | shipped, v0.1.0 |
+| Slice 1: hello bounded agent | next |
 
 Releases are tagged to align with published posts.
 
